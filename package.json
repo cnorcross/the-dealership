@@ -1,0 +1,12 @@
+{
+  "name": "the-dealership",
+  "version": "1.0.0",
+  "description": "A browser-based car dealership simulator: start as a salesperson and build an automotive empire.",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "test": "node --test tests/engine.test.js",
+    "simulate": "node tools/simulate.js"
+  },
+  "license": "MIT"
+}
